@@ -131,6 +131,27 @@
             text-align: center;
             margin-bottom: 20px;
         }
+
+
+        .card-people .person-head {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card-people .person-head div {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .card-people .person-head img {
+            width: 75px;
+            height: 75px;
+            border-radius: 10px;
+            background-color: var(--gray-light);
+            overflow: hidden;
+            object-fit: cover;
+        }
     </style>
 </head>
 <body>
@@ -202,8 +223,14 @@
 
         <div class="card-list">
             <div class="card-people">
-                <span class="name">PAULO SEVERINO PENTEADO</span>
-                <span class="demand">CHEFE</span>
+                <div class="person-head">
+                    <img src="images/chefia/paulo-penteado.jpeg" alt="PAULO SEVERINO PENTEADO">
+
+                    <div>
+                        <span class="name">PAULO SEVERINO PENTEADO</span>
+                        <span class="demand">CHEFE</span>
+                    </div>
+                </div>
                 <span class="email-demand"><b>EMAIL:</b> nrepng_chefia@escola.pr.gov.br</span>
             </div>
 
