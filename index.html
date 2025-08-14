@@ -154,6 +154,20 @@
             object-fit: cover;
             background-color: rgb(236, 236, 254);
         }
+
+        @media screen and (max-width: 460px) {
+            .person-head {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .person-head > div {
+                width: 100%;
+            };
+            .demand {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
